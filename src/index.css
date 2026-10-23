@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-bistro-bg: #100D0D;
+  --color-bistro-sidebar: #1B1012;
+  --color-bistro-card: #211715;
+  --color-bistro-card-hover: #2a1e1b;
+  --color-bistro-emerald: #10B981;
+  --color-bistro-amber: #E8AD48;
+  --color-bistro-ivory: #F5F0E8;
+  --color-bistro-muted: #A9A09A;
+  --color-bistro-border: #3A2925;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #100D0D;
+  color: #F5F0E8;
+  font-family: var(--font-sans), sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: radial-gradient(circle at 15% 15%, rgba(45, 20, 24, 0.3) 0%, transparent 45%),
+                    radial-gradient(circle at 85% 85%, rgba(16, 185, 129, 0.05) 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Custom scrollbar for dark bistro theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #140F0E;
+}
+::-webkit-scrollbar-thumb {
+  background: #3A2925;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4F3833;
+}

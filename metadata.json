@@ -1,0 +1,6 @@
+{
+  "name": "BistroChef AI Companion",
+  "description": "Smart AI Family Meal Planner with pantry synchronization, intelligent dietary scheduling, recipe generation, and automated grocery lists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
